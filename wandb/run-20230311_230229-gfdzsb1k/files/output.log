@@ -1,0 +1,49 @@
+Epoch 1/5:   0%|          | 0/18 [00:00<?, ?img/s]/tmp/ipykernel_42889/3773969765.py:156: DeprecationWarning: BICUBIC is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.BICUBIC instead.
+  pil_img = pil_img.resize((newW, newH), resample=Image.NEAREST if is_mask else Image.BICUBIC)
+/tmp/ipykernel_42889/3773969765.py:156: DeprecationWarning: BICUBIC is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.BICUBIC instead.
+  pil_img = pil_img.resize((newW, newH), resample=Image.NEAREST if is_mask else Image.BICUBIC)
+/tmp/ipykernel_42889/3773969765.py:156: DeprecationWarning: BICUBIC is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.BICUBIC instead.
+  pil_img = pil_img.resize((newW, newH), resample=Image.NEAREST if is_mask else Image.BICUBIC)
+/tmp/ipykernel_42889/3773969765.py:156: DeprecationWarning: BICUBIC is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.BICUBIC instead.
+  pil_img = pil_img.resize((newW, newH), resample=Image.NEAREST if is_mask else Image.BICUBIC)
+/tmp/ipykernel_42889/3773969765.py:156: DeprecationWarning: BICUBIC is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.BICUBIC instead.
+  pil_img = pil_img.resize((newW, newH), resample=Image.NEAREST if is_mask else Image.BICUBIC)
+/tmp/ipykernel_42889/3773969765.py:156: DeprecationWarning: NEAREST is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.NEAREST or Dither.NONE instead.
+  pil_img = pil_img.resize((newW, newH), resample=Image.NEAREST if is_mask else Image.BICUBIC)
+/tmp/ipykernel_42889/3773969765.py:156: DeprecationWarning: BICUBIC is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.BICUBIC instead.
+  pil_img = pil_img.resize((newW, newH), resample=Image.NEAREST if is_mask else Image.BICUBIC)
+/tmp/ipykernel_42889/3773969765.py:156: DeprecationWarning: NEAREST is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.NEAREST or Dither.NONE instead.
+  pil_img = pil_img.resize((newW, newH), resample=Image.NEAREST if is_mask else Image.BICUBIC)
+/tmp/ipykernel_42889/3773969765.py:156: DeprecationWarning: NEAREST is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.NEAREST or Dither.NONE instead.
+  pil_img = pil_img.resize((newW, newH), resample=Image.NEAREST if is_mask else Image.BICUBIC)
+/tmp/ipykernel_42889/3773969765.py:156: DeprecationWarning: BICUBIC is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.BICUBIC instead.
+  pil_img = pil_img.resize((newW, newH), resample=Image.NEAREST if is_mask else Image.BICUBIC)
+/tmp/ipykernel_42889/3773969765.py:156: DeprecationWarning: BICUBIC is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.BICUBIC instead.
+  pil_img = pil_img.resize((newW, newH), resample=Image.NEAREST if is_mask else Image.BICUBIC)
+/tmp/ipykernel_42889/3773969765.py:156: DeprecationWarning: NEAREST is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.NEAREST or Dither.NONE instead.
+  pil_img = pil_img.resize((newW, newH), resample=Image.NEAREST if is_mask else Image.BICUBIC)
+/tmp/ipykernel_42889/3773969765.py:156: DeprecationWarning: NEAREST is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.NEAREST or Dither.NONE instead.
+  pil_img = pil_img.resize((newW, newH), resample=Image.NEAREST if is_mask else Image.BICUBIC)
+/tmp/ipykernel_42889/3773969765.py:156: DeprecationWarning: NEAREST is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.NEAREST or Dither.NONE instead.
+  pil_img = pil_img.resize((newW, newH), resample=Image.NEAREST if is_mask else Image.BICUBIC)
+/tmp/ipykernel_42889/3773969765.py:156: DeprecationWarning: NEAREST is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.NEAREST or Dither.NONE instead.
+  pil_img = pil_img.resize((newW, newH), resample=Image.NEAREST if is_mask else Image.BICUBIC)
+/tmp/ipykernel_42889/3773969765.py:156: DeprecationWarning: NEAREST is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.NEAREST or Dither.NONE instead.
+  pil_img = pil_img.resize((newW, newH), resample=Image.NEAREST if is_mask else Image.BICUBIC)
+input.size() =  torch.Size([1, 128, 128])
+target.size() =  torch.Size([1, 128, 128])
+Epoch 1/5:   6%|▌         | 1/18 [00:02<00:47,  2.80s/img, loss (batch)=1.52]
+input.size() =  torch.Size([1, 128, 128])
+
+Epoch 1/5:  11%|█         | 2/18 [00:04<00:33,  2.07s/img, loss (batch)=1.49]
+input.size() =  torch.Size([1, 128, 128])
+
+Epoch 1/5:  17%|█▋        | 3/18 [00:05<00:27,  1.86s/img, loss (batch)=1.46]
+Epoch 1/5:  17%|█▋        | 3/18 [00:05<00:27,  1.86s/img,/tmp/ipykernel_42889/3773969765.py:156: DeprecationWarning: BICUBIC is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.BICUBIC instead.
+  pil_img = pil_img.resize((newW, newH), resample=Image.NEAREST if is_mask else Image.BICUBIC)
+/tmp/ipykernel_42889/3773969765.py:156: DeprecationWarning: NEAREST is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.NEAREST or Dither.NONE instead.
+  pil_img = pil_img.resize((newW, newH), resample=Image.NEAREST if is_mask else Image.BICUBIC)
+Epoch 1/5:  17%|█▋        | 3/18 [00:09<00:46,  3.13s/img, loss (batch)=1.46]
+input.size() =  torch.Size([1, 1, 128, 128])
+target.size() =  torch.Size([1, 128, 128])
+100%|██████████| 19/19 [00:00<00:00, 13643.52it/s]

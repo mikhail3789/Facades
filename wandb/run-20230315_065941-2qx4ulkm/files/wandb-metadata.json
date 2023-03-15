@@ -1,0 +1,74 @@
+{
+    "os": "Linux-5.19.0-35-generic-x86_64-with-glibc2.35",
+    "python": "3.10.6",
+    "heartbeatAt": "2023-03-15T03:59:45.010131",
+    "startedAt": "2023-03-15T03:59:41.469161",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "-c",
+        "1"
+    ],
+    "state": "running",
+    "program": "/home/mikhail/github/Facades/train.py",
+    "codePath": "train.py",
+    "host": "mikhail",
+    "username": "mikhail",
+    "executable": "/bin/python3",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1600.0177500000002,
+        "min": 400.0,
+        "max": 1600.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1600.017,
+            "min": 400.0,
+            "max": 1600.0
+        },
+        {
+            "current": 1599.956,
+            "min": 400.0,
+            "max": 1600.0
+        },
+        {
+            "current": 1600.01,
+            "min": 400.0,
+            "max": 1600.0
+        },
+        {
+            "current": 1599.995,
+            "min": 400.0,
+            "max": 1600.0
+        },
+        {
+            "current": 1600.062,
+            "min": 400.0,
+            "max": 1600.0
+        },
+        {
+            "current": 1599.964,
+            "min": 400.0,
+            "max": 1600.0
+        },
+        {
+            "current": 1600.021,
+            "min": 400.0,
+            "max": 1600.0
+        },
+        {
+            "current": 1599.993,
+            "min": 400.0,
+            "max": 1600.0
+        }
+    ],
+    "disk": {
+        "total": 131.59132385253906,
+        "used": 67.5239372253418
+    },
+    "memory": {
+        "total": 7.549160003662109
+    }
+}

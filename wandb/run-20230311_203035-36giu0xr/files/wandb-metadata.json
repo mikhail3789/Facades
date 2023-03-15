@@ -1,0 +1,80 @@
+{
+    "os": "Linux-5.19.0-35-generic-x86_64-with-glibc2.35",
+    "python": "3.10.6",
+    "heartbeatAt": "2023-03-11T17:30:39.239636",
+    "startedAt": "2023-03-11T17:30:35.695735",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "-c",
+        "1"
+    ],
+    "state": "running",
+    "program": "/home/mikhail/github/Pytorch-UNet/train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://github.com/milesial/Pytorch-UNet.git",
+        "commit": "2f62e6b1c8e98022a6418d31a76f6abd800e5ae7"
+    },
+    "email": "mikhail3789@gmail.com",
+    "root": "/home/mikhail/github/Pytorch-UNet",
+    "host": "mikhail",
+    "username": "mikhail",
+    "executable": "/usr/bin/python3",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1199.9965000000002,
+        "min": 400.0,
+        "max": 1600.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1200.045,
+            "min": 400.0,
+            "max": 1600.0
+        },
+        {
+            "current": 1200.026,
+            "min": 400.0,
+            "max": 1600.0
+        },
+        {
+            "current": 1199.97,
+            "min": 400.0,
+            "max": 1600.0
+        },
+        {
+            "current": 1200.62,
+            "min": 400.0,
+            "max": 1600.0
+        },
+        {
+            "current": 1200.021,
+            "min": 400.0,
+            "max": 1600.0
+        },
+        {
+            "current": 1200.013,
+            "min": 400.0,
+            "max": 1600.0
+        },
+        {
+            "current": 1199.988,
+            "min": 400.0,
+            "max": 1600.0
+        },
+        {
+            "current": 1199.998,
+            "min": 400.0,
+            "max": 1600.0
+        }
+    ],
+    "disk": {
+        "total": 131.59132385253906,
+        "used": 63.53456115722656
+    },
+    "memory": {
+        "total": 7.549167633056641
+    }
+}

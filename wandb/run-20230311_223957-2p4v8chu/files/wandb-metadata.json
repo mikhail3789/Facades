@@ -1,0 +1,70 @@
+{
+    "os": "Linux-5.19.0-35-generic-x86_64-with-glibc2.35",
+    "python": "3.10.6",
+    "heartbeatAt": "2023-03-11T19:40:08.255598",
+    "startedAt": "2023-03-11T19:39:57.003101",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "host": "mikhail",
+    "username": "mikhail",
+    "executable": "/bin/python3",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1600.011,
+        "min": 400.0,
+        "max": 1600.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1600.034,
+            "min": 400.0,
+            "max": 1600.0
+        },
+        {
+            "current": 1600.018,
+            "min": 400.0,
+            "max": 1600.0
+        },
+        {
+            "current": 1600.05,
+            "min": 400.0,
+            "max": 1600.0
+        },
+        {
+            "current": 1599.999,
+            "min": 400.0,
+            "max": 1600.0
+        },
+        {
+            "current": 1600.078,
+            "min": 400.0,
+            "max": 1600.0
+        },
+        {
+            "current": 1599.752,
+            "min": 400.0,
+            "max": 1600.0
+        },
+        {
+            "current": 1599.123,
+            "min": 400.0,
+            "max": 1600.0
+        },
+        {
+            "current": 1599.995,
+            "min": 400.0,
+            "max": 1600.0
+        }
+    ],
+    "disk": {
+        "total": 131.59132385253906,
+        "used": 63.54785919189453
+    },
+    "memory": {
+        "total": 7.549167633056641
+    }
+}

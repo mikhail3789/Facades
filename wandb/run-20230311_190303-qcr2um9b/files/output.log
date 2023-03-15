@@ -1,0 +1,23 @@
+INFO: Starting training:
+        Epochs:          5
+        Batch size:      1
+        Learning rate:   1e-05
+        Training size:   17
+        Validation size: 1
+        Checkpoints:     True
+        Device:          cpu
+        Images scaling:  0.5
+        Mixed Precision: False
+Epoch 1/5:   0%|                                        | 0/17 [00:00<?, ?img/s]
+Traceback (most recent call last):
+  File "/home/mikhail/github/Pytorch-UNet/train.py", line 212, in <module>
+    train_model(
+  File "/home/mikhail/github/Pytorch-UNet/train.py", line 92, in train_model
+    assert images.shape[1] == model.n_channels, \
+AssertionError: Network has been defined with 1 input channels, but loaded images have 3 channels. Please check that the images are loaded correctly.
+Traceback (most recent call last):
+  File "/home/mikhail/github/Pytorch-UNet/train.py", line 212, in <module>
+    train_model(
+  File "/home/mikhail/github/Pytorch-UNet/train.py", line 92, in train_model
+    assert images.shape[1] == model.n_channels, \
+AssertionError: Network has been defined with 1 input channels, but loaded images have 3 channels. Please check that the images are loaded correctly.

@@ -1,0 +1,182 @@
+2023-03-11 19:09:18,982 INFO    StreamThr :33852 [internal.py:wandb_internal():88] W&B internal server running at pid: 33852, started at: 2023-03-11 19:09:18.982084
+2023-03-11 19:09:18,986 DEBUG   HandlerThread:33852 [handler.py:handle_request():139] handle_request: status
+2023-03-11 19:09:19,214 DEBUG   SenderThread:33852 [sender.py:send_request():317] send_request: status
+2023-03-11 19:09:19,217 DEBUG   SenderThread:33852 [sender.py:send():303] send: header
+2023-03-11 19:09:19,218 DEBUG   SenderThread:33852 [sender.py:send():303] send: run
+2023-03-11 19:09:19,223 INFO    WriterThread:33852 [datastore.py:open_for_write():75] open: /home/mikhail/github/Pytorch-UNet/wandb/run-20230311_190918-38vw2udt/run-38vw2udt.wandb
+2023-03-11 19:09:19,224 INFO    SenderThread:33852 [sender.py:_maybe_setup_resume():593] checking resume status for None/U-Net/38vw2udt
+2023-03-11 19:09:21,030 DEBUG   HandlerThread:33852 [handler.py:handle_request():139] handle_request: check_version
+2023-03-11 19:09:21,044 INFO    SenderThread:33852 [dir_watcher.py:__init__():216] watching files in: /home/mikhail/github/Pytorch-UNet/wandb/run-20230311_190918-38vw2udt/files
+2023-03-11 19:09:21,044 INFO    SenderThread:33852 [sender.py:_start_run_threads():928] run started: 38vw2udt with start time 1678550958.977664
+2023-03-11 19:09:21,045 DEBUG   SenderThread:33852 [sender.py:send():303] send: summary
+2023-03-11 19:09:21,045 INFO    SenderThread:33852 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-11 19:09:21,045 DEBUG   SenderThread:33852 [sender.py:send_request():317] send_request: check_version
+2023-03-11 19:09:21,628 DEBUG   HandlerThread:33852 [handler.py:handle_request():139] handle_request: run_start
+2023-03-11 19:09:21,631 DEBUG   HandlerThread:33852 [system_info.py:__init__():31] System info init
+2023-03-11 19:09:21,631 DEBUG   HandlerThread:33852 [system_info.py:__init__():46] System info init done
+2023-03-11 19:09:21,631 INFO    HandlerThread:33852 [system_monitor.py:start():150] Starting system monitor
+2023-03-11 19:09:21,631 INFO    SystemMonitor:33852 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-03-11 19:09:21,632 INFO    HandlerThread:33852 [system_monitor.py:probe():168] Collecting system info
+2023-03-11 19:09:21,632 INFO    SystemMonitor:33852 [interfaces.py:start():168] Started cpu
+2023-03-11 19:09:21,635 INFO    SystemMonitor:33852 [interfaces.py:start():168] Started disk
+2023-03-11 19:09:21,636 INFO    SystemMonitor:33852 [interfaces.py:start():168] Started memory
+2023-03-11 19:09:21,638 INFO    SystemMonitor:33852 [interfaces.py:start():168] Started network
+2023-03-11 19:09:21,649 DEBUG   HandlerThread:33852 [system_info.py:probe():195] Probing system
+2023-03-11 19:09:21,652 DEBUG   HandlerThread:33852 [system_info.py:_probe_git():180] Probing git
+2023-03-11 19:09:21,662 DEBUG   HandlerThread:33852 [system_info.py:_probe_git():188] Probing git done
+2023-03-11 19:09:21,662 DEBUG   HandlerThread:33852 [system_info.py:probe():241] Probing system done
+2023-03-11 19:09:21,662 DEBUG   HandlerThread:33852 [system_monitor.py:probe():177] {'os': 'Linux-5.19.0-35-generic-x86_64-with-glibc2.35', 'python': '3.10.6', 'heartbeatAt': '2023-03-11T16:09:21.649402', 'startedAt': '2023-03-11T16:09:18.966930', 'docker': None, 'cuda': None, 'args': ('-c', '1'), 'state': 'running', 'program': '/home/mikhail/github/Pytorch-UNet/train.py', 'codePath': 'train.py', 'git': {'remote': 'https://github.com/milesial/Pytorch-UNet.git', 'commit': '2f62e6b1c8e98022a6418d31a76f6abd800e5ae7'}, 'email': 'mikhail3789@gmail.com', 'root': '/home/mikhail/github/Pytorch-UNet', 'host': 'mikhail', 'username': 'mikhail', 'executable': '/usr/bin/python3', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 1537.5953749999999, 'min': 400.0, 'max': 1600.0}, 'cpu_freq_per_core': [{'current': 1600.102, 'min': 400.0, 'max': 1600.0}, {'current': 1600.003, 'min': 400.0, 'max': 1600.0}, {'current': 1600.007, 'min': 400.0, 'max': 1600.0}, {'current': 1600.031, 'min': 400.0, 'max': 1600.0}, {'current': 1599.97, 'min': 400.0, 'max': 1600.0}, {'current': 1600.006, 'min': 400.0, 'max': 1600.0}, {'current': 1599.358, 'min': 400.0, 'max': 1600.0}, {'current': 1599.999, 'min': 400.0, 'max': 1600.0}], 'disk': {'total': 131.59132385253906, 'used': 63.53117370605469}, 'memory': {'total': 7.549167633056641}}
+2023-03-11 19:09:21,663 INFO    HandlerThread:33852 [system_monitor.py:probe():178] Finished collecting system info
+2023-03-11 19:09:21,663 INFO    HandlerThread:33852 [system_monitor.py:probe():181] Publishing system info
+2023-03-11 19:09:21,663 DEBUG   HandlerThread:33852 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-03-11 19:09:21,663 DEBUG   HandlerThread:33852 [system_info.py:_save_pip():67] Saving pip packages done
+2023-03-11 19:09:21,664 INFO    HandlerThread:33852 [system_monitor.py:probe():183] Finished publishing system info
+2023-03-11 19:09:21,667 DEBUG   SenderThread:33852 [sender.py:send():303] send: files
+2023-03-11 19:09:21,667 INFO    SenderThread:33852 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2023-03-11 19:09:21,770 DEBUG   HandlerThread:33852 [handler.py:handle_request():139] handle_request: stop_status
+2023-03-11 19:09:21,771 DEBUG   SenderThread:33852 [sender.py:send_request():317] send_request: stop_status
+2023-03-11 19:09:22,048 INFO    Thread-13 :33852 [dir_watcher.py:_on_file_created():275] file/dir created: /home/mikhail/github/Pytorch-UNet/wandb/run-20230311_190918-38vw2udt/files/wandb-metadata.json
+2023-03-11 19:09:22,049 INFO    Thread-13 :33852 [dir_watcher.py:_on_file_created():275] file/dir created: /home/mikhail/github/Pytorch-UNet/wandb/run-20230311_190918-38vw2udt/files/wandb-summary.json
+2023-03-11 19:09:22,049 INFO    Thread-13 :33852 [dir_watcher.py:_on_file_created():275] file/dir created: /home/mikhail/github/Pytorch-UNet/wandb/run-20230311_190918-38vw2udt/files/requirements.txt
+2023-03-11 19:09:22,358 DEBUG   SenderThread:33852 [sender.py:send():303] send: telemetry
+2023-03-11 19:09:22,358 DEBUG   SenderThread:33852 [sender.py:send():303] send: config
+2023-03-11 19:09:23,045 INFO    Thread-13 :33852 [dir_watcher.py:_on_file_created():275] file/dir created: /home/mikhail/github/Pytorch-UNet/wandb/run-20230311_190918-38vw2udt/files/output.log
+2023-03-11 19:09:23,198 INFO    Thread-16 :33852 [upload_job.py:push():143] Uploaded file /tmp/tmpw53uyraxwandb/2sixm5hb-wandb-metadata.json
+2023-03-11 19:09:23,812 DEBUG   HandlerThread:33852 [handler.py:handle_request():139] handle_request: partial_history
+2023-03-11 19:09:23,814 DEBUG   SenderThread:33852 [sender.py:send():303] send: history
+2023-03-11 19:09:23,818 DEBUG   SenderThread:33852 [sender.py:send():303] send: summary
+2023-03-11 19:09:23,819 INFO    SenderThread:33852 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-11 19:09:24,046 INFO    Thread-13 :33852 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mikhail/github/Pytorch-UNet/wandb/run-20230311_190918-38vw2udt/files/wandb-summary.json
+2023-03-11 19:09:25,045 DEBUG   HandlerThread:33852 [handler.py:handle_request():139] handle_request: partial_history
+2023-03-11 19:09:25,046 DEBUG   SenderThread:33852 [sender.py:send():303] send: history
+2023-03-11 19:09:25,047 DEBUG   SenderThread:33852 [sender.py:send():303] send: summary
+2023-03-11 19:09:25,051 INFO    Thread-13 :33852 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mikhail/github/Pytorch-UNet/wandb/run-20230311_190918-38vw2udt/files/wandb-summary.json
+2023-03-11 19:09:25,052 INFO    SenderThread:33852 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-11 19:09:25,053 INFO    Thread-13 :33852 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mikhail/github/Pytorch-UNet/wandb/run-20230311_190918-38vw2udt/files/output.log
+2023-03-11 19:09:26,117 DEBUG   HandlerThread:33852 [handler.py:handle_request():139] handle_request: partial_history
+2023-03-11 19:09:26,118 DEBUG   SenderThread:33852 [sender.py:send():303] send: history
+2023-03-11 19:09:26,119 DEBUG   SenderThread:33852 [sender.py:send():303] send: summary
+2023-03-11 19:09:26,120 INFO    SenderThread:33852 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-11 19:09:27,052 INFO    Thread-13 :33852 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mikhail/github/Pytorch-UNet/wandb/run-20230311_190918-38vw2udt/files/wandb-summary.json
+2023-03-11 19:09:27,052 INFO    Thread-13 :33852 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mikhail/github/Pytorch-UNet/wandb/run-20230311_190918-38vw2udt/files/output.log
+2023-03-11 19:09:28,476 DEBUG   SenderThread:33852 [sender.py:send():303] send: exit
+2023-03-11 19:09:28,477 INFO    SenderThread:33852 [sender.py:send_exit():442] handling exit code: 1
+2023-03-11 19:09:28,477 INFO    SenderThread:33852 [sender.py:send_exit():444] handling runtime: 6
+2023-03-11 19:09:28,477 INFO    SenderThread:33852 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-11 19:09:28,477 INFO    SenderThread:33852 [sender.py:send_exit():450] send defer
+2023-03-11 19:09:28,478 DEBUG   HandlerThread:33852 [handler.py:handle_request():139] handle_request: defer
+2023-03-11 19:09:28,478 INFO    HandlerThread:33852 [handler.py:handle_request_defer():162] handle defer: 0
+2023-03-11 19:09:28,478 DEBUG   SenderThread:33852 [sender.py:send_request():317] send_request: defer
+2023-03-11 19:09:28,478 INFO    SenderThread:33852 [sender.py:send_request_defer():459] handle sender defer: 0
+2023-03-11 19:09:28,478 INFO    SenderThread:33852 [sender.py:transition_state():463] send defer: 1
+2023-03-11 19:09:28,479 DEBUG   HandlerThread:33852 [handler.py:handle_request():139] handle_request: defer
+2023-03-11 19:09:28,479 INFO    HandlerThread:33852 [handler.py:handle_request_defer():162] handle defer: 1
+2023-03-11 19:09:28,479 INFO    HandlerThread:33852 [system_monitor.py:finish():160] Stopping system monitor
+2023-03-11 19:09:28,479 DEBUG   SystemMonitor:33852 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-03-11 19:09:28,480 DEBUG   SystemMonitor:33852 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-03-11 19:09:28,480 INFO    HandlerThread:33852 [interfaces.py:finish():173] Joined cpu
+2023-03-11 19:09:28,480 DEBUG   SystemMonitor:33852 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-03-11 19:09:28,481 INFO    HandlerThread:33852 [interfaces.py:finish():173] Joined disk
+2023-03-11 19:09:28,481 INFO    HandlerThread:33852 [interfaces.py:finish():173] Joined memory
+2023-03-11 19:09:28,481 INFO    HandlerThread:33852 [interfaces.py:finish():173] Joined network
+2023-03-11 19:09:28,482 DEBUG   SenderThread:33852 [sender.py:send_request():317] send_request: defer
+2023-03-11 19:09:28,482 INFO    SenderThread:33852 [sender.py:send_request_defer():459] handle sender defer: 1
+2023-03-11 19:09:28,482 INFO    SenderThread:33852 [sender.py:transition_state():463] send defer: 2
+2023-03-11 19:09:28,483 DEBUG   HandlerThread:33852 [handler.py:handle_request():139] handle_request: defer
+2023-03-11 19:09:28,483 INFO    HandlerThread:33852 [handler.py:handle_request_defer():162] handle defer: 2
+2023-03-11 19:09:28,483 DEBUG   SenderThread:33852 [sender.py:send():303] send: stats
+2023-03-11 19:09:28,484 DEBUG   SenderThread:33852 [sender.py:send_request():317] send_request: defer
+2023-03-11 19:09:28,484 INFO    SenderThread:33852 [sender.py:send_request_defer():459] handle sender defer: 2
+2023-03-11 19:09:28,484 INFO    SenderThread:33852 [sender.py:transition_state():463] send defer: 3
+2023-03-11 19:09:28,484 DEBUG   HandlerThread:33852 [handler.py:handle_request():139] handle_request: defer
+2023-03-11 19:09:28,484 INFO    HandlerThread:33852 [handler.py:handle_request_defer():162] handle defer: 3
+2023-03-11 19:09:28,484 DEBUG   SenderThread:33852 [sender.py:send_request():317] send_request: defer
+2023-03-11 19:09:28,485 INFO    SenderThread:33852 [sender.py:send_request_defer():459] handle sender defer: 3
+2023-03-11 19:09:28,485 INFO    SenderThread:33852 [sender.py:transition_state():463] send defer: 4
+2023-03-11 19:09:28,485 DEBUG   HandlerThread:33852 [handler.py:handle_request():139] handle_request: defer
+2023-03-11 19:09:28,485 INFO    HandlerThread:33852 [handler.py:handle_request_defer():162] handle defer: 4
+2023-03-11 19:09:28,486 DEBUG   SenderThread:33852 [sender.py:send():303] send: summary
+2023-03-11 19:09:28,486 INFO    SenderThread:33852 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-03-11 19:09:28,486 DEBUG   SenderThread:33852 [sender.py:send_request():317] send_request: defer
+2023-03-11 19:09:28,486 INFO    SenderThread:33852 [sender.py:send_request_defer():459] handle sender defer: 4
+2023-03-11 19:09:28,486 INFO    SenderThread:33852 [sender.py:transition_state():463] send defer: 5
+2023-03-11 19:09:28,487 DEBUG   HandlerThread:33852 [handler.py:handle_request():139] handle_request: defer
+2023-03-11 19:09:28,487 INFO    HandlerThread:33852 [handler.py:handle_request_defer():162] handle defer: 5
+2023-03-11 19:09:28,487 DEBUG   SenderThread:33852 [sender.py:send_request():317] send_request: defer
+2023-03-11 19:09:28,487 INFO    SenderThread:33852 [sender.py:send_request_defer():459] handle sender defer: 5
+2023-03-11 19:09:29,053 INFO    Thread-13 :33852 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mikhail/github/Pytorch-UNet/wandb/run-20230311_190918-38vw2udt/files/wandb-summary.json
+2023-03-11 19:09:29,053 INFO    Thread-13 :33852 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mikhail/github/Pytorch-UNet/wandb/run-20230311_190918-38vw2udt/files/output.log
+2023-03-11 19:09:29,476 DEBUG   HandlerThread:33852 [handler.py:handle_request():139] handle_request: poll_exit
+2023-03-11 19:09:29,524 INFO    SenderThread:33852 [sender.py:transition_state():463] send defer: 6
+2023-03-11 19:09:29,525 DEBUG   SenderThread:33852 [sender.py:send_request():317] send_request: poll_exit
+2023-03-11 19:09:29,526 DEBUG   HandlerThread:33852 [handler.py:handle_request():139] handle_request: defer
+2023-03-11 19:09:29,526 INFO    HandlerThread:33852 [handler.py:handle_request_defer():162] handle defer: 6
+2023-03-11 19:09:29,527 DEBUG   SenderThread:33852 [sender.py:send_request():317] send_request: defer
+2023-03-11 19:09:29,527 INFO    SenderThread:33852 [sender.py:send_request_defer():459] handle sender defer: 6
+2023-03-11 19:09:30,054 INFO    Thread-13 :33852 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mikhail/github/Pytorch-UNet/wandb/run-20230311_190918-38vw2udt/files/config.yaml
+2023-03-11 19:09:30,478 DEBUG   HandlerThread:33852 [handler.py:handle_request():139] handle_request: poll_exit
+2023-03-11 19:09:31,055 INFO    Thread-13 :33852 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mikhail/github/Pytorch-UNet/wandb/run-20230311_190918-38vw2udt/files/output.log
+2023-03-11 19:09:32,382 INFO    SenderThread:33852 [sender.py:transition_state():463] send defer: 7
+2023-03-11 19:09:32,383 DEBUG   SenderThread:33852 [sender.py:send_request():317] send_request: poll_exit
+2023-03-11 19:09:32,384 DEBUG   HandlerThread:33852 [handler.py:handle_request():139] handle_request: defer
+2023-03-11 19:09:32,384 INFO    HandlerThread:33852 [handler.py:handle_request_defer():162] handle defer: 7
+2023-03-11 19:09:32,385 DEBUG   SenderThread:33852 [sender.py:send_request():317] send_request: defer
+2023-03-11 19:09:32,385 INFO    SenderThread:33852 [sender.py:send_request_defer():459] handle sender defer: 7
+2023-03-11 19:09:32,385 INFO    SenderThread:33852 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-03-11 19:09:33,058 INFO    SenderThread:33852 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mikhail/github/Pytorch-UNet/wandb/run-20230311_190918-38vw2udt/files/output.log
+2023-03-11 19:09:33,058 INFO    SenderThread:33852 [dir_watcher.py:finish():392] scan: /home/mikhail/github/Pytorch-UNet/wandb/run-20230311_190918-38vw2udt/files
+2023-03-11 19:09:33,059 INFO    SenderThread:33852 [dir_watcher.py:finish():406] scan save: /home/mikhail/github/Pytorch-UNet/wandb/run-20230311_190918-38vw2udt/files/config.yaml config.yaml
+2023-03-11 19:09:33,059 INFO    SenderThread:33852 [dir_watcher.py:finish():406] scan save: /home/mikhail/github/Pytorch-UNet/wandb/run-20230311_190918-38vw2udt/files/wandb-summary.json wandb-summary.json
+2023-03-11 19:09:33,068 INFO    SenderThread:33852 [dir_watcher.py:finish():406] scan save: /home/mikhail/github/Pytorch-UNet/wandb/run-20230311_190918-38vw2udt/files/output.log output.log
+2023-03-11 19:09:33,077 INFO    SenderThread:33852 [dir_watcher.py:finish():406] scan save: /home/mikhail/github/Pytorch-UNet/wandb/run-20230311_190918-38vw2udt/files/requirements.txt requirements.txt
+2023-03-11 19:09:33,078 INFO    SenderThread:33852 [dir_watcher.py:finish():406] scan save: /home/mikhail/github/Pytorch-UNet/wandb/run-20230311_190918-38vw2udt/files/wandb-metadata.json wandb-metadata.json
+2023-03-11 19:09:33,079 INFO    SenderThread:33852 [sender.py:transition_state():463] send defer: 8
+2023-03-11 19:09:33,080 DEBUG   HandlerThread:33852 [handler.py:handle_request():139] handle_request: defer
+2023-03-11 19:09:33,080 INFO    HandlerThread:33852 [handler.py:handle_request_defer():162] handle defer: 8
+2023-03-11 19:09:33,081 DEBUG   SenderThread:33852 [sender.py:send_request():317] send_request: defer
+2023-03-11 19:09:33,081 INFO    SenderThread:33852 [sender.py:send_request_defer():459] handle sender defer: 8
+2023-03-11 19:09:33,082 INFO    SenderThread:33852 [file_pusher.py:finish():168] shutting down file pusher
+2023-03-11 19:09:35,483 DEBUG   HandlerThread:33852 [handler.py:handle_request():139] handle_request: keepalive
+2023-03-11 19:09:37,038 INFO    Thread-19 :33852 [upload_job.py:push():143] Uploaded file /home/mikhail/github/Pytorch-UNet/wandb/run-20230311_190918-38vw2udt/files/output.log
+2023-03-11 19:09:37,075 INFO    Thread-17 :33852 [upload_job.py:push():143] Uploaded file /home/mikhail/github/Pytorch-UNet/wandb/run-20230311_190918-38vw2udt/files/config.yaml
+2023-03-11 19:09:37,153 INFO    Thread-20 :33852 [upload_job.py:push():143] Uploaded file /home/mikhail/github/Pytorch-UNet/wandb/run-20230311_190918-38vw2udt/files/requirements.txt
+2023-03-11 19:09:37,157 INFO    Thread-18 :33852 [upload_job.py:push():143] Uploaded file /home/mikhail/github/Pytorch-UNet/wandb/run-20230311_190918-38vw2udt/files/wandb-summary.json
+2023-03-11 19:09:37,359 INFO    Thread-12 (_thread_body):33852 [sender.py:transition_state():463] send defer: 9
+2023-03-11 19:09:37,360 DEBUG   HandlerThread:33852 [handler.py:handle_request():139] handle_request: defer
+2023-03-11 19:09:37,360 INFO    HandlerThread:33852 [handler.py:handle_request_defer():162] handle defer: 9
+2023-03-11 19:09:37,361 DEBUG   SenderThread:33852 [sender.py:send_request():317] send_request: defer
+2023-03-11 19:09:37,361 INFO    SenderThread:33852 [sender.py:send_request_defer():459] handle sender defer: 9
+2023-03-11 19:09:37,361 INFO    SenderThread:33852 [file_pusher.py:join():173] waiting for file pusher
+2023-03-11 19:09:37,361 INFO    SenderThread:33852 [sender.py:transition_state():463] send defer: 10
+2023-03-11 19:09:37,362 DEBUG   HandlerThread:33852 [handler.py:handle_request():139] handle_request: defer
+2023-03-11 19:09:37,363 INFO    HandlerThread:33852 [handler.py:handle_request_defer():162] handle defer: 10
+2023-03-11 19:09:37,363 DEBUG   SenderThread:33852 [sender.py:send_request():317] send_request: defer
+2023-03-11 19:09:37,363 INFO    SenderThread:33852 [sender.py:send_request_defer():459] handle sender defer: 10
+2023-03-11 19:09:38,098 INFO    SenderThread:33852 [sender.py:transition_state():463] send defer: 11
+2023-03-11 19:09:38,099 DEBUG   HandlerThread:33852 [handler.py:handle_request():139] handle_request: defer
+2023-03-11 19:09:38,099 INFO    HandlerThread:33852 [handler.py:handle_request_defer():162] handle defer: 11
+2023-03-11 19:09:38,100 DEBUG   SenderThread:33852 [sender.py:send_request():317] send_request: defer
+2023-03-11 19:09:38,100 INFO    SenderThread:33852 [sender.py:send_request_defer():459] handle sender defer: 11
+2023-03-11 19:09:38,100 INFO    SenderThread:33852 [sender.py:transition_state():463] send defer: 12
+2023-03-11 19:09:38,102 DEBUG   HandlerThread:33852 [handler.py:handle_request():139] handle_request: defer
+2023-03-11 19:09:38,102 INFO    HandlerThread:33852 [handler.py:handle_request_defer():162] handle defer: 12
+2023-03-11 19:09:38,103 DEBUG   SenderThread:33852 [sender.py:send():303] send: final
+2023-03-11 19:09:38,103 DEBUG   SenderThread:33852 [sender.py:send():303] send: footer
+2023-03-11 19:09:38,103 DEBUG   SenderThread:33852 [sender.py:send_request():317] send_request: defer
+2023-03-11 19:09:38,103 INFO    SenderThread:33852 [sender.py:send_request_defer():459] handle sender defer: 12
+2023-03-11 19:09:38,106 DEBUG   HandlerThread:33852 [handler.py:handle_request():139] handle_request: poll_exit
+2023-03-11 19:09:38,106 DEBUG   SenderThread:33852 [sender.py:send_request():317] send_request: poll_exit
+2023-03-11 19:09:38,109 DEBUG   HandlerThread:33852 [handler.py:handle_request():139] handle_request: server_info
+2023-03-11 19:09:38,109 DEBUG   SenderThread:33852 [sender.py:send_request():317] send_request: server_info
+2023-03-11 19:09:38,117 DEBUG   HandlerThread:33852 [handler.py:handle_request():139] handle_request: get_summary
+2023-03-11 19:09:38,119 DEBUG   HandlerThread:33852 [handler.py:handle_request():139] handle_request: sampled_history
+2023-03-11 19:09:39,942 INFO    MainThread:33852 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2023-03-11 19:09:39,943 INFO    MainThread:33852 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2023-03-11 19:09:39,944 INFO    MainThread:33852 [wandb_run.py:_footer_sync_info():3333] logging synced files
+2023-03-11 19:09:39,945 DEBUG   HandlerThread:33852 [handler.py:handle_request():139] handle_request: shutdown
+2023-03-11 19:09:39,945 INFO    HandlerThread:33852 [handler.py:finish():814] shutting down handler
+2023-03-11 19:09:40,103 INFO    WriterThread:33852 [datastore.py:close():279] close: /home/mikhail/github/Pytorch-UNet/wandb/run-20230311_190918-38vw2udt/run-38vw2udt.wandb
+2023-03-11 19:09:40,941 INFO    SenderThread:33852 [sender.py:finish():1331] shutting down sender
+2023-03-11 19:09:40,942 INFO    SenderThread:33852 [file_pusher.py:finish():168] shutting down file pusher
+2023-03-11 19:09:40,942 INFO    SenderThread:33852 [file_pusher.py:join():173] waiting for file pusher
+2023-03-11 19:09:40,949 INFO    MainThread:33852 [internal.py:handle_exit():78] Internal process exited

@@ -1,0 +1,57 @@
+INFO: Starting training:
+        Epochs:          5
+        Batch size:      1
+        Learning rate:   1e-05
+        Training size:   17
+        Validation size: 1
+        Checkpoints:     True
+        Device:          cpu
+        Images scaling:  0.5
+        Mixed Precision: False
+Epoch 1/5:   0%|                                        | 0/17 [00:00<?, ?img/s]
+Traceback (most recent call last):
+  File "/home/mikhail/github/Pytorch-UNet/train.py", line 214, in <module>
+    train_model(
+  File "/home/mikhail/github/Pytorch-UNet/train.py", line 108, in train_model
+    loss = criterion(masks_pred, true_masks)
+  File "/home/mikhail/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/mikhail/.local/lib/python3.10/site-packages/torch/nn/modules/loss.py", line 1174, in forward
+    return F.cross_entropy(input, target, weight=self.weight,
+  File "/home/mikhail/.local/lib/python3.10/site-packages/torch/nn/functional.py", line 3026, in cross_entropy
+    return torch._C._nn.cross_entropy_loss(input, target, weight, _Reduction.get_enum(reduction), ignore_index, label_smoothing)
+IndexError: Target 2 is out of bounds.
+Traceback (most recent call last):
+  File "/home/mikhail/github/Pytorch-UNet/train.py", line 214, in <module>
+    train_model(
+  File "/home/mikhail/github/Pytorch-UNet/train.py", line 108, in train_model
+    loss = criterion(masks_pred, true_masks)
+  File "/home/mikhail/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/mikhail/.local/lib/python3.10/site-packages/torch/nn/modules/loss.py", line 1174, in forward
+    return F.cross_entropy(input, target, weight=self.weight,
+  File "/home/mikhail/.local/lib/python3.10/site-packages/torch/nn/functional.py", line 3026, in cross_entropy
+    return torch._C._nn.cross_entropy_loss(input, target, weight, _Reduction.get_enum(reduction), ignore_index, label_smoothing)
+IndexError: Target 2 is out of bounds.
+masks_pred =  tensor([[[[-0.5899,  0.0442,  0.2670,  ..., -0.0947, -0.3917, -0.2810],
+          [-0.6563, -0.3529, -0.2695,  ...,  0.0017, -0.2603,  0.1270],
+          [-0.6267, -0.6033, -0.6437,  ..., -0.0035, -0.0962,  0.1003],
+          ...,
+          [-0.0227, -0.1077, -0.3170,  ..., -0.1472, -0.1625, -0.1674],
+          [-0.7592, -0.7555, -0.6165,  ..., -0.1399, -0.3649,  0.2791],
+          [-0.5367, -0.5030, -0.1517,  ..., -0.2392, -0.0666, -0.0165]],
+         [[ 0.2180, -0.5584, -0.3011,  ..., -0.5170, -0.4661, -0.4176],
+          [-0.1801,  0.1124, -0.7214,  ..., -0.4959, -0.4471, -0.1575],
+          [-0.1406,  0.2545,  0.2259,  ..., -0.6189, -0.2581, -0.4178],
+          ...,
+          [-0.3754, -0.3885, -0.4062,  ..., -0.7141, -0.2758, -0.2767],
+          [-0.2088, -0.4083, -0.6181,  ..., -1.1517, -0.3082, -0.4823],
+          [ 0.0236,  0.1807,  0.5159,  ..., -0.5035,  0.0478, -0.1374]]]],
+       grad_fn=<ConvolutionBackward0>)
+true_masks =  tensor([[[0, 0, 0,  ..., 0, 0, 0],
+         [0, 0, 0,  ..., 0, 0, 0],
+         [0, 0, 0,  ..., 0, 0, 0],
+         ...,
+         [0, 0, 0,  ..., 0, 0, 0],
+         [0, 0, 0,  ..., 0, 0, 0],
+         [0, 0, 0,  ..., 0, 0, 0]]])

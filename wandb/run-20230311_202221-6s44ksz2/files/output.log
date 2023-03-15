@@ -1,0 +1,67 @@
+INFO: Starting training:
+        Epochs:          5
+        Batch size:      1
+        Learning rate:   1e-05
+        Training size:   17
+        Validation size: 1
+        Checkpoints:     True
+        Device:          cpu
+        Images scaling:  0.5
+        Mixed Precision: False
+Epoch 1/5:   0%|                                        | 0/17 [00:00<?, ?img/s]
+Traceback (most recent call last):
+  File "/home/mikhail/github/Pytorch-UNet/train.py", line 214, in <module>
+    train_model(
+  File "/home/mikhail/github/Pytorch-UNet/train.py", line 89, in train_model
+    for batch in train_loader:
+  File "/home/mikhail/.local/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 628, in __next__
+    data = self._next_data()
+  File "/home/mikhail/.local/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1333, in _next_data
+    return self._process_data(data)
+  File "/home/mikhail/.local/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1359, in _process_data
+    data.reraise()
+  File "/home/mikhail/.local/lib/python3.10/site-packages/torch/_utils.py", line 543, in reraise
+    raise exception
+AttributeError: Caught AttributeError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/home/mikhail/.local/lib/python3.10/site-packages/torch/utils/data/_utils/worker.py", line 302, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/home/mikhail/.local/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 58, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/mikhail/.local/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 58, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/mikhail/.local/lib/python3.10/site-packages/torch/utils/data/dataset.py", line 295, in __getitem__
+    return self.dataset[self.indices[idx]]
+  File "/home/mikhail/github/Pytorch-UNet/utils/data_loading.py", line 101, in __getitem__
+    print('mask.max = ', mask.max())
+  File "/home/mikhail/.local/lib/python3.10/site-packages/PIL/Image.py", line 517, in __getattr__
+    raise AttributeError(name)
+AttributeError: max
+Traceback (most recent call last):
+  File "/home/mikhail/github/Pytorch-UNet/train.py", line 214, in <module>
+    train_model(
+  File "/home/mikhail/github/Pytorch-UNet/train.py", line 89, in train_model
+    for batch in train_loader:
+  File "/home/mikhail/.local/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 628, in __next__
+    data = self._next_data()
+  File "/home/mikhail/.local/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1333, in _next_data
+    return self._process_data(data)
+  File "/home/mikhail/.local/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1359, in _process_data
+    data.reraise()
+  File "/home/mikhail/.local/lib/python3.10/site-packages/torch/_utils.py", line 543, in reraise
+    raise exception
+AttributeError: Caught AttributeError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/home/mikhail/.local/lib/python3.10/site-packages/torch/utils/data/_utils/worker.py", line 302, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/home/mikhail/.local/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 58, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/mikhail/.local/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 58, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/mikhail/.local/lib/python3.10/site-packages/torch/utils/data/dataset.py", line 295, in __getitem__
+    return self.dataset[self.indices[idx]]
+  File "/home/mikhail/github/Pytorch-UNet/utils/data_loading.py", line 101, in __getitem__
+    print('mask.max = ', mask.max())
+  File "/home/mikhail/.local/lib/python3.10/site-packages/PIL/Image.py", line 517, in __getattr__
+    raise AttributeError(name)
+AttributeError: max
